@@ -34,7 +34,4 @@ components:
     type: chePlugin
   - id: bmewburn/vscode-intelephense-client/latest
     type: chePlugin
-## Entry for VSCode Ansible Extension    
-  - type: chePlugin
-    reference: 'https://raw.githubusercontent.com/nmalvankar/che-ansible/master/plugin/meta.yaml'
-    alias: ansible-plugin
+
