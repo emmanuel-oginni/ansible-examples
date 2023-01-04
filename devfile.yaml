@@ -2,7 +2,13 @@ apiVersion: 1.0.0
 metadata:
   generateName: ansible-demo
 
-
+projects:
+  - name: demopoc
+    source:
+      location: 'https://github.com/emmanuel-oginni/ansible-examples'
+      type: git
+      branch: master
+      
 components:
   - mountSources: true
     args:
